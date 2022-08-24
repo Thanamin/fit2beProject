@@ -53,7 +53,7 @@ function AddActivities(props) {
       date: startDate,
       img: image
     };
-    axios.post('http://fit2b-backend.vercel.app/activities/create', data).then(navigate('/activity')
+    axios.post('https://fit2be-project-backend-thanamin.vercel.app/activities/create', data).then(navigate('/activity')
     )
 
   };
