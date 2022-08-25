@@ -97,8 +97,18 @@
     padding-top: 5px;
 }
 
+.activities-footer ul li {
+    font-size: smaller;
+}
+
+.activities-footer ul li span {
+    color: red;
+    font-weight: bold;
+}
+
 .activities-footer li:first-child {
     margin-right: auto;
+    
 }
 
 .activities-footer li+li {
@@ -124,6 +134,7 @@
 .activities-list-description {
     border-radius: 3px;
     padding: 0 0.5rem 0 1.5rem;
+    font-size: medium;
 }
 
 .noObject{
